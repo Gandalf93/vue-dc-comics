@@ -1,6 +1,5 @@
 <template>
   <header>
-    
     <nav>
         <a href="#">
             <img src="../img/dc-logo.png" alt="">
@@ -38,8 +37,10 @@
             </li>
         </ul>
     </nav>
+    
   </header>
 </template>
+    
 
 
 <script>

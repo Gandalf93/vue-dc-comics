@@ -1,5 +1,24 @@
 <template>
   <footer>
+      <div class="barra-blu">
+        <ul>
+            <li>
+                <a href="#"><img src="../img/buy-comics-digital-comics.png" alt="">digital comics</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/buy-comics-merchandise.png" alt="">dc merchandise</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/buy-comics-subscriptions.png" alt="">subscription</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/buy-comics-shop-locator.png" alt="">comic shop locator</a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/buy-dc-power-visa.svg" alt="">dc power visa</a>
+            </li>
+        </ul>
+      </div>
       <div class="foot-alto">
           <div>
             <ul>
@@ -73,6 +92,40 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.barra-blu{
+    height: 100px;
+    background-color: rgb(31, 74, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    ul{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+    }
+      
+    li a{
+        margin: 0 20px;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+        li a img{
+            margin: 0 10px;
+            width: 40px;
+            height: 40px;
+        }
+        
+}
+      
+      
+  
+
 .foot-alto{
     display: flex;
     background-image: url(../img/footer-bg.jpg);
@@ -91,7 +144,7 @@ export default {
     li{
         list-style: none;
         text-transform: capitalize;
-        
+        margin: 10px 0;
         color: lightgrey;
     }
     img{
@@ -135,5 +188,6 @@ export default {
     border: 1px solid blue;
     color: white;
 }
+
 
 </style>
