@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <Corpo/>
     <Footer/>
   </div>
 </template>
@@ -8,7 +9,7 @@
 <script>
 
 import Header from "./components/Header.vue";
-// import Corpo from "./components/Corpo.vue";
+import Corpo from "./components/Corpo.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -16,7 +17,7 @@ export default {
   components: {
    
     Header,
-    // Corpo,
+    Corpo,
     Footer,
   },
 };
